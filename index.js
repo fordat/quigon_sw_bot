@@ -1,10 +1,13 @@
 import blue from "@atproto/api";
 import fs from "node:fs";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const { BskyAgent } = blue;
 
-const BLUESKY_BOT_USERNAME = "quigon_sw_bot_tolecrien"
-const BLUESKY_BOT_PASSWORD = 
+const BLUESKY_BOT_USERNAME = process.env.APP_USERNAME
+const BLUESKY_BOT_PASSWORD = process.env.APP_PASSWORD
 
 const fileName = "./quotes.json";
 
@@ -22,7 +25,7 @@ const generateQuiGonQuote = async () => {
     password: BLUESKY_BOT_PASSWORD,
   });
 
-  const rt = new RichText({ text: fileContent.body });
+  const rt = new RichText({ text: fileContent.body[1] });
   const postRecord = {
     $type: "app.bsky.feed.post",
     text: rt.text,
