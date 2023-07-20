@@ -1,8 +1,12 @@
 import blue from "@atproto/api";
 import fs from "node:fs";
 import dotenv from "dotenv";
+import cron from "node-cron";
+import express from "express";
 
 dotenv.config();
+
+const app = express();
 
 const { BskyAgent } = blue;
 
@@ -11,10 +15,19 @@ const BLUESKY_BOT_PASSWORD = process.env.APP_PASSWORD
 
 const fileName = "./quotes.json";
 
+const randomIntFromInterval = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
 const generateQuiGonQuote = async () => {
   const file = fs.readFileSync(fileName);
   const fileContent = JSON.parse(file);
-  console.log(fileContent);
+  console.log("quote file length: ", fileContent.body.length);
+  let randomInt = randomIntFromInterval(0, fileContent.body.length - 1);
+  console.log("random quote interval: ", randomInt);
+  console.log("randomly selected quote: ", fileContent.body[randomInt]);
+
+  let randomQuote = fileContent.body[randomInt];
 
   // quote received
 
@@ -25,7 +38,7 @@ const generateQuiGonQuote = async () => {
     password: BLUESKY_BOT_PASSWORD,
   });
 
-  const rt = new RichText({ text: fileContent.body[1] });
+  const rt = new RichText({ text: randomQuote });
   const postRecord = {
     $type: "app.bsky.feed.post",
     text: rt.text,
@@ -35,4 +48,18 @@ const generateQuiGonQuote = async () => {
   await agent.post(postRecord);
 };
 
-generateQuiGonQuote();
+// cron.schedule('0 * * * *', () => {
+//   generateQuiGonQuote();
+// });
+
+cron.schedule('0 */3 * * *', () => {
+  generateQuiGonQuote();
+});
+
+cron.schedule('*/7 * * * * *', () => {
+  console.log("hello")
+});
+
+app.listen(3000, () => {
+  console.log("Application listening...");
+})
