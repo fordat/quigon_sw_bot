@@ -52,7 +52,7 @@ const generateQuiGonQuote = async () => {
 //   generateQuiGonQuote();
 // });
 
-cron.schedule('0 */3 * * *', () => {
+cron.schedule('0 */2 * * *', () => {
   generateQuiGonQuote();
 });
 
