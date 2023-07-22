@@ -49,17 +49,18 @@ const generateQuiGonQuote = async () => {
   await agent.post(postRecord);
 };
 
-cron.schedule('*/25 * * * *', () => {
+cron.schedule('*/4 * * * *', () => {
   console.log("Pinging to stay awake...")
   axios.get('https://api.publicapis.org/entries');
 })
 
 cron.schedule('0 * * * *', () => {
-  generateQuiGonQuote();
+  // generateQuiGonQuote();
 });
 
 cron.schedule('*/10 * * * * *', () => {
-  console.log("Running...")
+  console.log("Running...");
+  generateQuiGonQuote();
 });
 
 app.listen(process.env.PORT || 3000, () => {
