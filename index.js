@@ -60,7 +60,7 @@ cron.schedule('0 * * * *', () => {
 
 cron.schedule('*/10 * * * * *', () => {
   console.log("Running...");
-  generateQuiGonQuote();
+  // generateQuiGonQuote();
 });
 
 app.listen(process.env.PORT || 3000, () => {
