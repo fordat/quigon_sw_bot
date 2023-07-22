@@ -51,7 +51,7 @@ const generateQuiGonQuote = async () => {
 
 cron.schedule('*/4 * * * *', () => {
   console.log("Pinging to stay awake...")
-  axios.get('https://api.publicapis.org/entries');
+  axios.get('https://quigon-sw-bot-bf4f7e27a12b.herokuapp.com/');
 })
 
 cron.schedule('0 * * * *', () => {
