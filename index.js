@@ -54,7 +54,7 @@ cron.schedule('*/25 * * * *', () => {
   axios.get('example.herokuapp.com');
 })
 
-cron.schedule('0 */1 * * *', () => {
+cron.schedule('0 * * * *', () => {
   generateQuiGonQuote();
 });
 
