@@ -55,12 +55,11 @@ cron.schedule('*/4 * * * *', () => {
 })
 
 cron.schedule('0 * * * *', () => {
-  // generateQuiGonQuote();
+  generateQuiGonQuote();
 });
 
 cron.schedule('*/10 * * * * *', () => {
   console.log("Running...");
-  // generateQuiGonQuote();
 });
 
 app.listen(process.env.PORT || 3000, () => {
