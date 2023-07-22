@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 import cron from "node-cron";
 import express from "express";
 import axios from "axios";
-// import getRoutes from "./routes/route.js"
 
 dotenv.config();
 
