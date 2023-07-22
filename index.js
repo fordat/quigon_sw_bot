@@ -54,7 +54,7 @@ const generateQuiGonQuote = async () => {
   await agent.post(postRecord);
 };
 
-cron.schedule('*/4 * * * * *', () => {
+cron.schedule('*/25 * * * *', () => {
   console.log("Pinging to stay awake...")
   axios.get('https://quigon-sw-bot-bf4f7e27a12b.herokuapp.com/');
 })
