@@ -3,6 +3,7 @@ import fs from "node:fs";
 import dotenv from "dotenv";
 import cron from "node-cron";
 import express from "express";
+import axios from "axios";
 
 dotenv.config();
 
@@ -48,16 +49,17 @@ const generateQuiGonQuote = async () => {
   await agent.post(postRecord);
 };
 
-// cron.schedule('0 * * * *', () => {
-//   generateQuiGonQuote();
-// });
+cron.schedule('*/25 * * * *', () => {
+  console.log("Pinging to stay awake...")
+  axios.get('example.herokuapp.com');
+})
 
 cron.schedule('0 */1 * * *', () => {
   generateQuiGonQuote();
 });
 
-cron.schedule('*/7 * * * * *', () => {
-  console.log("hello")
+cron.schedule('*/10 * * * * *', () => {
+  console.log("Running...")
 });
 
 app.listen(process.env.PORT || 3000, () => {
