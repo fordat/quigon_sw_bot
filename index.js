@@ -52,7 +52,7 @@ const generateQuiGonQuote = async () => {
 //   generateQuiGonQuote();
 // });
 
-cron.schedule('0 */2 * * *', () => {
+cron.schedule('0 */1 * * *', () => {
   generateQuiGonQuote();
 });
 
@@ -60,6 +60,6 @@ cron.schedule('*/7 * * * * *', () => {
   console.log("hello")
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Application listening...");
 })
