@@ -4,10 +4,15 @@ import dotenv from "dotenv";
 import cron from "node-cron";
 import express from "express";
 import axios from "axios";
+// import getRoutes from "./routes/route.js"
 
 dotenv.config();
 
 const app = express();
+
+app.get('/', (req, res) => {
+  return res.status(200).send('Received a GET HTTP method');
+});
 
 const { BskyAgent } = blue;
 
@@ -49,7 +54,7 @@ const generateQuiGonQuote = async () => {
   await agent.post(postRecord);
 };
 
-cron.schedule('*/4 * * * *', () => {
+cron.schedule('*/30 * * * * *', () => {
   console.log("Pinging to stay awake...")
   axios.get('https://quigon-sw-bot-bf4f7e27a12b.herokuapp.com/');
 })
@@ -63,5 +68,5 @@ cron.schedule('*/10 * * * * *', () => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log("Application listening...");
+  console.log(`Application listening on port ${process.env.PORT}!`);
 })
