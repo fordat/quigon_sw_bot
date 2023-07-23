@@ -58,7 +58,7 @@ cron.schedule('*/5 * * * *', () => {
   axios.get('https://quigon-sw-bot-bf4f7e27a12b.herokuapp.com/');
 })
 
-cron.schedule('0 * * * *', () => {
+cron.schedule('0 */2 * * *', () => {
   generateQuiGonQuote();
 });
 
