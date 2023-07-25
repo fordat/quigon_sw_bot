@@ -24,7 +24,25 @@ const randomIntFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-const generateQuiGonQuote = async (language) => {
+const postToBluesky = async (text) => {
+  const { RichText } = blue;
+  const agent = new BskyAgent({ service: "https://bsky.social/"});
+  await agent.login({
+    identifier: BLUESKY_BOT_USERNAME,
+    password: BLUESKY_BOT_PASSWORD,
+  });
+
+  const rt = new RichText({ text: text });
+  const postRecord = {
+    $type: "app.bsky.feed.post",
+    text: rt.text,
+    facets: rt.facets,
+    createdAt: new Date().toISOString(),
+  };
+  await agent.post(postRecord);
+}
+
+const generateQuiGonQuote = () => {
   const file = fs.readFileSync(fileName);
   const fileContent = JSON.parse(file);
   console.log("quote file length: ", fileContent.body.length);
@@ -33,25 +51,14 @@ const generateQuiGonQuote = async (language) => {
   console.log("randomly selected quote: ", fileContent.body[randomInt]);
 
   let randomQuoteObject = fileContent.body[randomInt];
-  let randomQuote = randomQuoteObject[language];
 
   // quote received
+  postToBluesky(randomQuoteObject["english"]);
 
-  const { RichText } = blue;
-  const agent = new BskyAgent({ service: "https://bsky.social/"});
-  await agent.login({
-    identifier: BLUESKY_BOT_USERNAME,
-    password: BLUESKY_BOT_PASSWORD,
-  });
-
-  const rt = new RichText({ text: randomQuote });
-  const postRecord = {
-    $type: "app.bsky.feed.post",
-    text: rt.text,
-    facets: rt.facets,
-    createdAt: new Date().toISOString(),
-  };
-  await agent.post(postRecord);
+  // japanese for one hour later
+  setInterval(() => {
+    postToBluesky(randomQuoteObject["japanese"]);
+  }, 3600000);
 };
 
 cron.schedule('*/5 * * * *', () => {
@@ -60,12 +67,7 @@ cron.schedule('*/5 * * * *', () => {
 })
 
 cron.schedule('0 */2 * * *', () => {
-  generateQuiGonQuote("english");
-  
-  // japanese for one hour later
-  setInterval(() => {
-    generateQuiGonQuote("japanese");
-  }, 3600000)
+  generateQuiGonQuote();
 });
 
 cron.schedule('*/10 * * * * *', () => {
