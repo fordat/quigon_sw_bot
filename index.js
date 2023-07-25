@@ -56,7 +56,7 @@ const generateQuiGonQuote = () => {
   postToBluesky(randomQuoteObject["english"]);
 
   // japanese for one hour later
-  setInterval(() => {
+  setTimeout(() => {
     postToBluesky(randomQuoteObject["japanese"]);
   }, 3600000);
 };
@@ -67,7 +67,7 @@ cron.schedule('*/5 * * * *', () => {
 })
 
 cron.schedule('0 */2 * * *', () => {
-  // generateQuiGonQuote();
+  generateQuiGonQuote();
 });
 
 cron.schedule('*/10 * * * * *', () => {
