@@ -67,7 +67,7 @@ cron.schedule('*/5 * * * *', () => {
 })
 
 cron.schedule('0 */2 * * *', () => {
-  generateQuiGonQuote();
+  // generateQuiGonQuote();
 });
 
 cron.schedule('*/10 * * * * *', () => {
