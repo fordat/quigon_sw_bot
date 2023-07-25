@@ -1,149 +1,744 @@
 {
-  "body": 
-    [
-      "This is not a good idea. Stay close to me.",
-      "That'll complicate things. Be wary. I sense a disturbance in the Force.",
-      "Land near the outskirts. We don't want to attract attention.",
-      "町外れに近いところへ着陸するんだ。注意を引き付けたくない。",
-      "You must trust my judgment, Your Highness.",
-      "お許しとあらば、陛下、我々はタトゥイーンと呼ばれる辺境の惑星へ向かっています。この惑星は通商連合の勢力圏から遠く外れた星系にあります。",
-      "Your Highness, with your permission, we're heading for a remote planet called Tatooine. It's in a system far beyond the reach of the Trade Federation.",
-      "いや、それは連合が支配する星系に着陸しても同じことだ。だが、ハットは女王を探しているわけではない。その点は我々に有利だ。",
-      "It'd be no different than if we landed... on a system controlled by the Federation, except that the Hutts aren't looking for her, which gives us the advantage.",
-      "ハットが支配する惑星だ。",
-      "It's controlled by the Hutts.",
-      "どこかに着陸して船の補給と修理をする必要があるな。",
-      "We'll have to land somewhere to refuel and repair the ship.",
-      "こっちです。行って！",
-      "Come on. Move!",
-      "コルサントだ。",
-      "To Coruscant.",
-      "私は最高議長の特使だ。この方々をコルサントへお連れする。",
-      "I'm ambassador to the Supreme Chancellor. I'm taking these people to Coruscant.",
-      "Don't let them send any transmissions.",
-      "面倒なことになりそうだ。用心しろ。フォースの騒乱を感じる。",
-      "If you are to leave, Your Highness, it must be now.",
-      "この背後には何か他のものがあります、陛下。連合をここまで動かす道理はありません。直感が、連中はあなたを殺害すると告げています。",
-      "There is something else behind all this, Your Highness. There's no logic in the Federation's move here. My feelings tell me they will destroy you.",
-      "ここにいれば殺されます。",
-      "They will kill you if you stay.",
-      "それは問題ではありません。陛下、状況を鑑みて、我々とコルサントまでご同行していただきたい。",
-      "That won't be a problem. Your Highness, under the circumstances, I suggest you come to Coruscant with us.",
-      "船はありますか？",
-      "Do you have transports?",
-      "交渉など行われませんでした。大至急、共和国と連絡を取らなければなりません。",
-      "The negotiations never took place. It's urgent that we make contact with the Republic.",
-      "通りから離れましょう、陛下。",
-      "We should leave the street, Your Highness.",
-      "あの岩礁へ向かえ。",
-      "Head for that outcropping.",
-      "落ち着け。",
-      "Relax.",
-      "落ち着け。まだ窮地に立ったわけではない。",
-      "Just relax. We're not in trouble yet.",
-      "心配はいらん。フォースが我々を導いてくれる。",
-      "Don't worry. The Force will guide us.",
-      "上には上がいるものだ。",
-      "There's always a bigger fish.",
-      "私は彼の命を救いました。彼は私に「命の借り」とやらがあります。神々は直ちに彼の命を私に託すよう命じるはずです。",
-      "I saved his life. He owes me what you call a \"life-debt.\" Your gods demand that his life belongs to me now.",
-      "ジャー・ジャー・ビンクスはここでどうなるのですか？",
-      "What is to become of Jar Jar Binks here?",
-      "惑星のコアまで連れて行ってくれる案内人が必要だ。このグンガンが助けになってくれるだろう。",
-      "We'll need a navigator to get us through the planet's core. This Gungan may be of help.",
-      "乗り物だとよいが。",
-      "A transport, I hope.",
-      "助力を感謝いたします。おとなしく立ち去りましょう。",
-      "We could use a transport.",
-      "Thank you for your help. We leave in peace.",
-      "Then speed us on our way.",
-      "A droid army is about to attack the Naboo. We must warn them.",
-      "ああ、心配はいらん。暖かい歓迎を受けるために来たのではない。",
-      "Oh, don't worry. This hasn't been our day for warm welcomes.",
-      "How much further?",
-      "あれは何千もの恐ろしい連中がこっちに向かっている音だ。",
-      "That is the sound of a thousand terrible things heading this way.",
-      "聴こえたか？",
-      "You hear that?",
-      "だめだと？",
-      "No?",
-      "そこへ連れて行ってくれるか？",
-      "Can you take us there?",
-      "都市だと？",
-      "A city?",
-      "原住民だ。これ以上ドロイドが現れる前にここから離れよう。",
-      "A local. Let's get out of here before more droids show up.",
-      "伏せろ！",
-      "Stay down!",
-      "そんなものは必要ない。",
-      "That won't be necessary.",
-      "喋れるからといって頭がいいとは限らん。さあ、ここから離れるんだ。",
-      "The ability to speak does not make you intelligent. Now, get out of here.",
-      "お前のせいで死ぬところだった。能無しか？",
-      "You almost got us killed. Are you brainless?",
-      "あっちへ行け！ここからどくんだ！伏せろ！",
-      "Get away! Get out of here! Get down!",
-      "通商連合にしては妙な行動だな。ナブーに警告して、ヴァローラム議長に報告する必要がある。ここで分かれよう。別々の船に乗り込んで、惑星で落ち合うんだ。",
-      "This is an odd play for the Trade Federation. We've got to warn the Naboo and contact Chancellor Valorum. Let's split up. Stow aboard separate ships and meet down on the planet.",
-      "バトル・ドロイドだ。",
-      "Battle droids.",
-      "シールド発生装置付きだ！きりがない。行くぞ。",
-      "They have shield generators! It's a standoff. Let's go.",
-      "毒ガスだ。",
-      "Dioxis.",
-      "私は何も感じないな。",
-      "Don't center on your anxieties, Obi-Wan. Keep your concentration here and now, where it belongs.",
-      "不安から目をそらすのだ、オビ＝ワン。我々がいる今ここに、意識を集中させろ。",
-      "いいや。些細な貿易論争にしては異常なほどに大きな恐怖を感じる。",
-      "No. I sense an unusual amount of fear for something as trivial as this trade dispute.",
-      "I don't sense anything.",
-      "直ちに乗艦したいと彼らに伝えてくれ。",
-      "Tell them we wish to board at once.",
-      "艦長。",
-      "Captain.",
-      "あの子は選ばれし者だ。均衡をもたらしてくれる。あの子を鍛えるんだ。",
-      "He is the chosen one. He will bring balance. Train him.",
-      "オビ＝ワン。約束だ・・・約束してくれ。あの子を訓練するんだ。",
-      "Obi-Wan. Promise--Promise me you will train the boy.",
-      "いや、もう・・・もう手遅れだ。",
-      "No, it--it's too late.",
-      "We'll handle this.",
-      "Stay in that cockpit.",
-      "Stay where you are. You'll be safe there.",
-      "アニー、隠れろ。急げ！",
-      "Ani, find cover. Quick!",
-      "そこにいろ。",
-      "Stay there.",
-      "中に入ったら安全な隠れ場所を見つけて、そこでじっとしてるんだ。",
-      "Once we get inside, you find a safe place to hide and stay there.",
-      "よく練られた作戦ですが、大きなリスクを伴います。あなたがたの戦闘機の武器ではシールドを突破できないでしょう。",
-      "A well-conceived plan. However, there's great risk. The weapons on your fighters may not penetrate the shields.",
-      "問題があるとすれば、この陽動作戦で多くのグンガンが犠牲になることだ。",
-      "There is a possibility, with this diversion, many Gungans will be killed.",
-      "The Viceroy will be well-guarded.",
-      "どこにいるか分かるのか、ジャー・ジャー？",
-      "Do you know where they are, Jar Jar?",
-      "お前はよくできた弟子だよ、オビ＝ワン。私よりずっと聡明だ。きっと偉大なジェダイ・ナイトになるだろう。",
-      "You've been a good apprentice, Obi-Wan. And you're a much wiser man than I am. I foresee you will become a great Jedi knight.",
-      "グンガンを動かすのは容易じゃないだろう。それに、我々は女王に助力できない。",
-      "The Gungans will not be easily swayed. And we cannot use our power to help her.",
-      "よし。",
-      "Good.",
-      "それに、私にできることは陛下をお守りすることだけです。あなたのために戦争を戦うことはできません。",
-      "And I can only protect you. I can't fight a war for you.",
-      "私も同意見です。私には陛下の帰還の意図が分かりません。",
-      "I agree. I'm not sure what you wish to accomplish by this.",
-      "そんなことはさせません。お約束します。",
-      "I assure you I will not allow that to happen.",
-      "陛下、引き続きお仕えし、お守りできるとは光栄です。",
-      "Your Majesty, it is our pleasure to continue to serve and protect you.",
-      "時が経ち、訓練を積めば分かるよ、アニー。きっと分かるようになる。",
-      "With time and training, Ani, you will. You will.",
-      "共通の利点のために共存する生命体だ。ミディ＝クロリアンなしでは生命は存在できないし、我々はフォースの知識を手に入れることもできない。彼らは絶えず我々に語りかけ、フォースの意思を伝えてくれるんだ。心を静めることを学べば、君にも彼らの声が聞こえるようになる。",
-      "Life-forms living together for mutual advantage. Without the midi-chlorians, life could not exist and we would have no knowledge of the Force. They continually speak to us, telling us the will of the Force. When you learn to quiet your mind, you'll hear them speaking to you.",
-      "もちろん、君の細胞の中にもいる。我々はミディ＝クロリアンと共生関係にあるんだ。",
-      "Inside your cells, yes. And we are symbionts with them.",
-      "ミディ＝クロリアンはあらゆる生きた細胞の中に存在する微小生命体だ。",
-      "Midi-chlorians are a microscopic life-form that resides within all living cells."
-    ]
+  "body": [
+    {
+      "english": "Get away! Get out of here! Get down!",
+      "japanese": "あっちへ行け！ここからどくんだ！伏せろ！"
+    },
+    {
+      "english": "You almost got us killed. Are you brainless?",
+      "japanese": "お前のせいで死ぬところだった。能無しか？"
+    },
+    {
+      "english": "The ability to speak does not make you intelligent. Now, get out of here.",
+      "japanese": "喋れるからといって頭がいいとは限らん。さあ、ここから離れるんだ。"
+    },
+    {
+      "english": "That won't be necessary.",
+      "japanese": "そんなものは必要ない。"
+    },
+    {
+      "english": "Stay down!",
+      "japanese": "伏せろ！"
+    },
+    {
+      "english": "A local. Let's get out of here before more droids show up.",
+      "japanese": "原住民だ。これ以上ドロイドが現れる前にここから離れよう。"
+    },
+    {
+      "english": "A city?",
+      "japanese": "都市だと？"
+    },
+    {
+      "english": "Can you take us there?",
+      "japanese": "そこへ連れて行ってくれるか？"
+    },
+    {
+      "english": "No?",
+      "japanese": "だめだと？"
+    },
+    {
+      "english": "You hear that?",
+      "japanese": "聴こえたか？"
+    },
+    {
+      "english": "That is the sound of a thousand terrible things heading this way.",
+      "japanese": "あれは何千もの恐ろしい連中がこっちに向かっている音だ。"
+    },
+    {
+      "english": "How much further?",
+      "japanese": "どれくらい遠いのだ？"
+    },
+    {
+      "english": "Oh, don't worry. This hasn't been our day for warm welcomes.",
+      "japanese": "ああ、心配はいらん。暖かい歓迎を受けるために来たのではない。"
+    },
+    {
+      "english": "A droid army is about to attack the Naboo. We must warn them.",
+      "japanese": "ドロイド軍はナブーを攻撃するつもりです。彼らに警告しなければなりません。"
+    },
+    {
+      "english": "Then speed us on our way.",
+      "japanese": "では、早急においとまさせていただきたい。"
+    },
+    {
+      "english": "We could use a transport.",
+      "japanese": "乗り物を使わせていただきたい。"
+    },
+    {
+      "english": "Thank you for your help. We leave in peace.",
+      "japanese": "助力を感謝いたします。おとなしく立ち去りましょう。"
+    },
+    {
+      "english": "A transport, I hope.",
+      "japanese": "乗り物だとよいが。"
+    },
+    {
+      "english": "We'll need a navigator to get us through the planet's core. This Gungan may be of help.",
+      "japanese": "惑星のコアまで連れて行ってくれる案内人が必要だ。このグンガンが助けになってくれるだろう。"
+    },
+    {
+      "english": "What is to become of Jar Jar Binks here?",
+      "japanese": "ジャー・ジャー・ビンクスはここでどうなるのですか？"
+    },
+    {
+      "english": "I saved his life. He owes me what you call a \"life-debt.\" Your gods demand that his life belongs to me now.",
+      "japanese": "私は彼の命を救いました。彼は私に「命の借り」とやらがあります。神々は直ちに彼の命を私に託すよう命じるはずです。"
+    },
+    {
+      "english": "There's always a bigger fish.",
+      "japanese": "上には上がいるものだ。"
+    },
+    {
+      "english": "Don't worry. The Force will guide us.",
+      "japanese": "心配はいらん。フォースが我々を導いてくれる。"
+    },
+    {
+      "english": "Just relax. We're not in trouble yet.",
+      "japanese": "落ち着け。まだ窮地に立ったわけではない。"
+    },
+    {
+      "english": "Relax.",
+      "japanese": "落ち着け。"
+    },
+    {
+      "english":"Head for that outcropping.",
+      "japanese":"あの岩礁へ向かえ。"
+    },
+    {
+      "english": "We should leave the street, Your Highness.",
+      "japanese": "通りから離れましょう、陛下。"
+    },
+    {
+      "english": "We're ambassadors for the Supreme Chancellor.",
+      "japanese": "我々は最高議長の特使です。"
+    },
+    {
+      "english": "The negotiations never took place. It's urgent that we make contact with the Republic.",
+      "japanese": "交渉など行われませんでした。大至急、共和国と連絡を取らなければなりません。"
+    },
+    {
+      "english": "Do you have transports?",
+      "japanese": "船はありますか？"
+    },
+    {
+      "english": "That won't be a problem. Your Highness, under the circumstances, I suggest you come to Coruscant with us.",
+      "japanese": "それは問題ではありません。陛下、状況を鑑みて、我々とコルサントまでご同行していただきたい。"
+    },
+    {
+      "english": "They will kill you if you stay.",
+      "japanese": "ここにいれば殺されます。"
+    },
+    {
+      "english": "There is something else behind all this, Your Highness. There's no logic in the Federation's move here. My feelings tell me they will destroy you.",
+      "japanese": "この背後には何か他のものがあります、陛下。連合をここまで動かす道理はありません。直感が、連中はあなたを殺害すると告げています。"
+    },
+    {
+      "english": "If you are to leave, Your Highness, it must be now.",
+      "japanese": "出発するなら、急ぎましょう、陛下。"
+    },
+    {
+      "english": "I'm ambassador to the Supreme Chancellor. I'm taking these people to Coruscant.",
+      "japanese": "私は最高議長の特使だ。この方々をコルサントへお連れする。"
+    },
+    {
+      "english": "To Coruscant.",
+      "japanese": "コルサントだ。"
+    },
+    {
+      "english": "Come on. Move!",
+      "japanese": "こっちです。行って！"
+    },
+    {
+      "english": "We'll have to land somewhere to refuel and repair the ship.",
+      "japanese": "どこかに着陸して船の補給と修理をする必要があるな。"
+    },
+    {
+      "english": "It's controlled by the Hutts.",
+      "japanese": "ハットが支配する惑星だ。"
+    },
+    {
+      "english": "It'd be no different than if we landed... on a system controlled by the Federation, except that the Hutts aren't looking for her, which gives us the advantage.",
+      "japanese": "いや、それは連合が支配する星系に着陸しても同じことだ。だが、ハットは女王を探しているわけではない。その点は我々に有利だ。"
+    },
+    {
+      "english": "Your Highness, with your permission, we're heading for a remote planet called Tatooine. It's in a system far beyond the reach of the Trade Federation.",
+      "japanese": "お許しとあらば、陛下、我々はタトゥイーンと呼ばれる辺境の惑星へ向かっています。この惑星は通商連合の勢力圏から遠く外れた星系にあります。"
+    },
+    {
+      "english": "You must trust my judgment, Your Highness.",
+      "japanese": "私の判断を信じてください、陛下。"
+    },
+    {
+      "english": "Land near the outskirts. We don't want to attract attention.",
+      "japanese": "町外れに近いところへ着陸するんだ。注意を引き付けたくない。"
+    },
+    {
+      "english": "That'll complicate things. Be wary. I sense a disturbance in the Force.",
+      "japanese": "面倒なことになりそうだ。用心しろ。フォースの騒乱を感じる。"
+    },
+    {
+      "english": "Don't let them send any transmissions.",
+      "japanese": "一切、通信をさせてはならん。"
+    },
+    {
+      "english": "No more commands from Her Highness today, Captain. The spaceport is not going to be pleasant.",
+      "japanese": "今日はこれ以上陛下の命令は聞けないよ、隊長。宇宙港は楽しい場所じゃないだ。"
+    },
+    {
+      "english": "This is not a good idea. Stay close to me.",
+      "japanese": "いい考えとはいえないな。私から離れるな。"
+    },
+    {
+      "english": "Moisture farms, for the most part. Some indigenous tribes and scavengers. The few spaceports like this one are havens for those that don't wish to be found.",
+      "japanese": "大部分は水分農場だ。原住民と廃品回収業者もいる。こういった数少ない宇宙港は見つかりたくない連中にとって天国だ。"
+    },
+    {
+      "english": "We'll try one of the smaller dealers.",
+      "japanese": "小さな商店の1つを当たってみよう。"
+    },
+    {
+      "english": "I need parts for a J-type 327 Nubian.",
+      "japanese": "Jタイプ327・ヌビアンのパーツを探している。"
+    },
+    {
+      "english": "My droid has a readout of what I need.",
+      "japanese": "このドロイドに必要なものの情報が入っている。"
+    },
+    {
+      "english": "Don't touch anything.",
+      "japanese": "何も触るな。"
+    },
+    {
+      "english": "I have 20,000 Republic dataries.",
+      "japanese": "20,000共和国データリーだ。"
+    },
+    {
+      "english": "I don't have anything else, but credits will do fine.",
+      "japanese": "他のものはないが、クレジットならある。"
+    },
+    {
+      "english": "Credits will do fine.",
+      "japanese": "クレジットならあるぞ。"
+    },
+    {
+      "english": "We're leaving. Jar Jar.",
+      "japanese": "行くぞ、ジャー・ジャー。"
+    },
+    {
+      "english": "And you're sure there's nothing left on board?",
+      "japanese": "それで、船にはもう何も残ってないのか？"
+    },
+    {
+      "english": "All right. I'm sure another solution will present itself. I'll check back later.",
+      "japanese": "わかった。何かほかの解決策を考えなければならんな。また後で連絡する。"
+    },
+    {
+      "english": "Not likely. We have nothing of value. That's our problem.",
+      "japanese":"それはない。我々には何の価値もない。それが問題なんだ。"
+    },
+    {
+      "english": "Hi there.",
+      "japanese": "こんにちは。"
+    },
+    {
+      "english": "Nevertheless, the boy is right. You were heading into trouble.",
+      "japanese": "いずれにしてもこの子が正しい。お前はトラブル・メーカーだ。"
+    },
+    {
+      "english": "Thanks, my young friend.",
+      "japanese": "ありがとう、坊や。"
+    },
+    {
+      "english": "Thank you.",
+      "japanese": "ありがとう。"
+    },
+    {
+      "english":"We'll head back to our ship.",
+      "japanese": "船に帰るつもりだ。"
+    },
+    {
+      "english": "I'm Qui-Gon Jinn.",
+      "japanese": "クワイ＝ガン・ジンです。"
+    },
+    {
+      "english": "Your son was kind enough to offer us shelter.",
+      "japanese": "息子さんが親切にも我々を避難させてくれまして。"
+    },
+    {
+      "english": "It sounds like bait to establish a connection trace.",
+      "japanese": "通信を逆探知するための罠だろう。"
+    },
+    {
+      "english": "Either way, we're running out of time.",
+      "japanese": "いずれにしても何もできない。時間との勝負だ。"
+    },
+    {
+      "english": "They have Podracing on Malastare. Very fast very, dangerous.",
+      "japanese": "マラステアで見たことがある。超高速でとても危険だ。"
+    },
+    {
+      "english": "You must have Jedi reflexes if you race pods.",
+      "japanese": "ポッドを操縦できるなら、ジェダイ並みの反射神経だな。"
+    },
+    {
+      "english": "Don't do that again.",
+      "japanese": "二度とやるな。"
+    },
+    {
+      "english": "What makes you think that?",
+      "japanese": "なぜそう思うんだい？"
+    },
+    {
+      "english": "Perhaps I killed a Jedi and took it from him.",
+      "japanese": "ジェダイを殺して奪ったのかもしれんぞ。"
+    },
+    {
+      "english": "I wish that were so.",
+      "japanese": "だといいんだがな。"
+    },
+    {
+      "english": "No, I'm afraid not.",
+      "japanese": "そうではないんだ。"
+    },
+    {
+      "english": "I can see there's no fooling you, Anakin. We're on our way to Coruscant, the central system in the Republic, on a very important mission.",
+      "japanese": "君を欺くことはできないな、アナキン。我々はとても重要な任務をもって、共和国の中心にある星系、コルサントへ向かう途中なんだ。"
+    },
+    {
+      "english": "I believe you can. But first we must acquire the parts we need.",
+      "japanese": "だろうな。だが、まずは必要なパーツを手に入れなければならん。"
+    },
+    {
+      "english": "Anakin, your mother's right.",
+      "japanese": "アナキン、お母さんの言うとおりだ。"
+    },
+    {
+      "english": "We'll find some other way.",
+      "japanese": "他の方法を探さねば。"
+    },
+    {
+      "english": "The Queen doesn't need to know.",
+      "japanese": "女王の知る必要はないことだ。"
+    },
+    {
+      "english": "My ship will be the entry fee.",
+      "japanese": "私の船がエントリー・フィーになる。"
+    },
+    {
+      "english": "It's in good order, except for the parts I need.",
+      "japanese": "例のパーツを除けば状態は良好だ。"
+    },
+    {
+      "english": "I have acquired a pod in a game of chance, the fastest ever built.",
+      "japanese": "賭けでポッドを手に入れた。これまでで一番速いやつだ。"
+    },
+    {
+      "english": "If it's going to be 50-50, I suggest you front the cash for the entry. If we win, you keep all the winnings, minus the cost of the parts I need. And if we lose, you keep my ship. Either way, you win.",
+      "japanese": "山分けにするなら出場費用は君が出してくれ。もし我々が勝ったら、私のパーツ代を差し引いて、賞金はすべて君にやる。そしてもし負けたら、君は私の船を取れ。いずれにしても君に損はない。"
+    },
+    {
+      "english": "Well, it's too dangerous to call for help, and a ship without a power supply isn't going to get us anywhere. And there's something about this boy.",
+      "japanese": "だが、助けを求めるには危険が大きすぎる。それに、動かない船があってもどうにもならんだろう。それよりもあの少年には何かがある。"
+    },
+    {
+      "english": "You should be very proud of your son. He gives without any thought of reward.",
+      "japanese": "誇るべきお子さんですよ。何の見返りもなく我々を助けてくれる。"
+    },
+    {
+      "english": "He has special powers.",
+      "japanese": "あの子には特別な力がある。"
+    },
+    {
+      "english": "He can see things before they happen. That's why he appears to have such quick reflexes. It's a Jedi trait.",
+      "japanese": "あの子は物事が起こる前にそれを察知することができる。すさまじい反射神経があるのもそのためです。ジェダイの素質だ。"
+    },
+    {
+      "english": "Had he been born in the Republic, we would have identified him early. The Force is unusually strong with him. That much is clear. Who was his father?",
+      "japanese": "共和国に生まれていれば、早期に見つけられていたでしょう。あの子は異常なまでにフォースが強い。それだけは確かです。父親は誰ですか？"
+    },
+    {
+      "english": "I don't know. I didn't actually come here to free slaves.",
+      "japanese": "それは無理です。実のところ、奴隷を解放するためにここへ来たのではないんです。"
+    },
+    {
+      "english": "I think it's time we found out. Here, use this power charge.",
+      "japanese": "はっきりさせるべきだな。ほら、このパワー・チャージを使うんだ。"
+    },
+    {
+      "english": "Come on, Kitster. Let's move away.",
+      "japanese": "おいで、キッスター。向こうへ行こう。"
+    },
+    {
+      "english": "Stay still, Ani. Let me clean this cut.",
+      "japanese": "じっとしてるんだ、アニー。この傷を消毒しないと。"
+    },
+    {
+      "english": "Most of them.",
+      "japanese": "大抵はな。"
+    },
+    {
+      "english": "Not likely.",
+      "japanese": "いないだろう。"
+    },
+    {
+      "english": "Checking your blood for infections. Go on. You have a big day tomorrow. Sleep well, Ani.",
+      "japanese": "感染していないか血液を調べてるんだ。行きなさい。明日は大事な日だ。ぐっすり寝るんだよ、アニー。"
+    },
+    {
+      "english": "Obi-Wan?",
+      "japanese": "オビ＝ワン？"
+    },
+    {
+      "english": "I need an analysis of this blood sample I'm sending you.",
+      "japanese": "今から送る血液サンプルを分析してくれ。"
+    },
+    {
+      "english": "I need a midi-chlorian count.",
+      "japanese": "ミディ＝クロリアン値を知りたい。"
+    },
+    {
+      "english": "No Jedi has.",
+      "japanese": "どんなジェダイでもないさ。"
+    },
+    {
+      "english": "I'm not sure.",
+      "japanese": "分からん。"
+    },
+    {
+      "english": "Patience, my blue friend. You'll have your winnings before the suns set. And we'll be far away from here.",
+      "japanese":"落ち着け、青い友よ。日暮れには君は賞金を手にしている。そして、我々はここから遠くに離れている。"
+    },
+    {
+      "english": "You don't think Anakin can win?",
+      "japanese": "アナキンが負けると思っているのか？"
+    },
+    {
+      "english": "Why do you think that?",
+      "japanese": "なぜそう思うんだ？"
+    },
+    {
+      "english": "I'll take that bet.",
+      "japanese": "その賭け、私が受けよう。"
+    },
+    {
+      "english": "I'll wager my new racing pod against, say...the boy and his mother.",
+      "japanese": "新しいレーシング・ポッドを賭けよう。君は・・・あの少年と母親でどうだ。"
+    },
+    {
+      "english": "The boy, then.",
+      "japanese": "では、少年を。"
+    },
+    {
+      "english": "I'll tell you later.",
+      "japanese": "後で話す。"
+    },
+    {
+      "english": "Good morning.",
+      "japanese": "おはよう。"
+    },
+    {
+      "english": "Of course you will.",
+      "japanese": "もちろんだとも。"
+    },
+    {
+      "english": "You all set, Ani?",
+      "japanese": "準備万端かい、アニー？"
+    },
+    {
+      "english": "Right.",
+      "japanese": "よし。"
+    },
+    {
+      "english": "Remember, concentrate on the moment. Feel, don't think. Use your instincts.",
+      "japanese": "いいな、この瞬間に集中しろ。考えるんじゃない、感じるんだ。直感を信じろ。"
+    },
+    {
+      "english": "May the Force be with you.",
+      "japanese": "フォースが共にあらんことを。"
+    },
+    {
+      "english": "He's fine.",
+      "japanese": "大丈夫だ。"
+    },
+    {
+      "english": "The Queen trusts my judgment, young handmaiden. You should too.",
+      "japanese": "女王は私の判断を信頼してくださるよ、若いお嬢さん。君もそうすべきだ。"
+    },
+    {
+      "english": "Whenever you gamble, my friend, eventually you'll lose. Bring the parts to the main hangar. I'll come by your shop later on so you can release the boy.",
+      "japanese": "ギャンブルに高じれば、いつかは負けるんだ、友よ。パーツをメイン・ハンガーへ運んでくれ。その後で店に行くから、あの子を自由にしておくんだ。"
+    },
+    {
+      "english": "Would you like to discuss it with the Hutts? I'm sure they can settle this.",
+      "japanese": "それについてハットと議論するか？連中なら解決してくれるだろう。"
+    },
+    {
+      "english": "Well, we have all the essential parts we need. I'm going back. Some unfinished business. I won't be long.",
+      "japanese": "よし、これで必要なパーツはすべてそろったな。戻るぞ。やり残した仕事があるんだ。すぐに帰る。"
+    },
+    {
+      "english": "It's the boy who's responsible for getting us these parts. Get this hyperdrive generator installed.",
+      "japanese": "このパーツをもたらしてくれた少年だよ。このハイパードライブ・ジェネレータを組み込んでおけ。"
+    },
+    {
+      "english": "Come on. Hup!",
+      "japanese": "行くぞ。ハッ！"
+    },
+    {
+      "english": "Hey. These are yours.",
+      "japanese": "ほら。これは君のものだ。"
+    },
+    {
+      "english": "And he has been freed.",
+      "japanese": "そして、この子は解放された。"
+    },
+    {
+      "english": "You're no longer a slave.",
+      "japanese": "君はもう奴隷じゃない。"
+    },
+    {
+      "english": "Yes. Our meeting was not a coincidence. Nothing happens by accident.",
+      "japanese": "はい。この出会いは偶然ではなかった。偶然からは何も生まれないのです。"
+    },
+    {
+      "english": "Anakin, training to become a Jedi is not an easy challenge, and even if you succeed, it's a hard life.",
+      "japanese": "アナキン、ジェダイになるための修行は容易なことじゃない。たとえうまくいっても、つらい人生が待っている。"
+    },
+    {
+      "english": "Then pack your things. We haven't much time.",
+      "japanese": "じゃあ、荷物を準備するんだ。時間がない。"
+    },
+    {
+      "english": "I tried to free your mother, Ani, but Watto wouldn't have it.",
+      "japanese": "お母さんも自由にしようとしたよ、アニー。だが、ワトーが手放さないんだ。"
+    },
+    {
+      "english": "I'll watch after him. You have my word. Will you be all right?",
+      "japanese": "息子さんの面倒は任せてください。約束します。大丈夫ですか？"
+    },
+    {
+      "english": "Qui-Gon, sir, wait! I'm tired!",
+      "japanese": "クワイ＝ガンさん、待って！疲れたよ！"
+    },
+    {
+      "english": "Anakin! Drop! Go! Tell them to take off.",
+      "japanese": "アナキン！伏せろ！行け！離陸させろ！"
+    },
+    {
+      "english": "I think so.",
+      "japanese": "ああ、大丈夫だ。"
+    },
+    {
+      "english": "I'm not sure, but it was well-trained in the Jedi arts. My guess is it was after the Queen.",
+      "japanese": "分からんが、ジェダイの武芸に熟練していた。おそらく女王を追ってきたんだろう。"
+    },
+    {
+      "english": "I must speak with the Jedi Council immediately. The situation has become much more complicated.",
+      "japanese": "大至急ジェダイ評議会に報告しなければなりません。状況は極めて複雑になりつつあります。"
+    },
+    {
+      "english": "He was trained in the Jedi arts. My only conclusion can be that it was a Sith Lord.",
+      "japanese": "かの者はジェダイの武芸の訓練を受けていました。私の唯一の直感では、シス卿に間違いありません。"
+    },
+    {
+      "english": "With your permission, my master, I have encountered a vergence in the Force.",
+      "japanese": "お許しとあらば、マスター、フォースの輻輳に出会いました。"
+    },
+    {
+      "english": "A boy. His cells have the highest concentration of midi-chlorians I have seen in a life-form. It is possible he was conceived by the midi-chlorians.",
+      "japanese": "少年です。彼の細胞にはこれまでに見てきた生物の中でもっとも高濃度のミディ＝クロリアンが凝縮されていました。ミディ＝クロリアンによって創造された可能性があります。"
+    },
+    {
+      "english": "I don't presume to--",
+      "japanese": "推測ではありませんが・・・"
+    },
+    {
+      "english": "I request the boy be tested, Master.",
+      "japanese": "その少年をテストしてほしいのです、マスター。"
+    },
+    {
+      "english": "Finding him was the will of the Force. I have no doubt of that.",
+      "japanese": "彼との出会いはフォースの意思です。疑う余地はありません。"
+    },
+    {
+      "english": "Anakin will become a Jedi, I promise you.",
+      "japanese": "アナキンはジェダイになる。約束しよう。"
+    },
+    {
+      "english": "I shall do what I must, Obi-Wan.",
+      "japanese": "すべきことをするだけだ、オビ＝ワン。"
+    },
+    {
+      "english": "You still have much to learn, my young apprentice.",
+      "japanese": "お前にはまだ学ぶべきことが多いな、若きパダワンよ。"
+    },
+    {
+      "english": "He is to be trained, then?",
+      "japanese": "では、訓練を受けるのですね？"
+    },
+    {
+      "english": "No?",
+      "japanese": "なんですと？"
+    },
+    {
+      "english": "He is the chosen one. You must see it.",
+      "japanese": "この子は選ばれし者です。分かっているでしょう。"
+    },
+    {
+      "english": "I will train him, then. I take Anakin as my Padawan learner.",
+      "japanese": "では、私がこの子を訓練します。アナキンを私のパダワン見習いとする。"
+    },
+    {
+      "english": "Obi-Wan is ready.",
+      "japanese": "オビ＝ワンは準備ができています。"
+    },
+    {
+      "english": "He is headstrong, and he has much to learn of the living Force, but he is capable. There is little more he can learn from me.",
+      "japanese": "頑固でリビング・フォースについて学ぶべきことも多いですが、優秀です。私から学べることはもうほとんどありません。"
+    },
+    {
+      "english": "From your point of view.",
+      "japanese": "お前の視点ではな。"
+    },
+    {
+      "english": "His fate is uncertain. He's not dangerous. The Council will decide Anakin's future. That should be enough for you. Now get on board.",
+      "japanese": "あの子の運命は不確かだ。危険ではない。評議会があの子の未来を決める。お前にとってもよい結果になるだろう。さあ、行くぞ"
+    },
+    {
+      "english": "You won't be, Ani. I'm not allowed to train you, so I want you to watch me and be mindful. Always remember, your focus determines your reality. Stay close to me and you'll be safe.",
+      "japanese": "ならないよ、アニー。訓練することはできないが、私を観察して、心に留めるんだ。常に忘れてはならん。意思の集中が君の真実を決めるんだ。私の近くにいれば安全だ。"
+    },
+    {
+      "english": "Midi-chlorians are a microscopic life-form that resides within all living cells.",
+      "japanese": "ミディ＝クロリアンはあらゆる生きた細胞の中に存在する微小生命体だ。"
+    },
+    {
+      "english": "Inside your cells, yes. And we are symbionts with them.",
+      "japanese": "もちろん、君の細胞の中にもいる。我々はミディ＝クロリアンと共生関係にあるんだ。"
+    },
+    {
+      "english": "Life-forms living together for mutual advantage. Without the midi-chlorians, life could not exist and we would have no knowledge of the Force. They continually speak to us, telling us the will of the Force. When you learn to quiet your mind, you'll hear them speaking to you.",
+      "japanese": "共通の利点のために共存する生命体だ。ミディ＝クロリアンなしでは生命は存在できないし、我々はフォースの知識を手に入れることもできない。彼らは絶えず我々に語りかけ、フォースの意思を伝えてくれるんだ。心を静めることを学べば、君にも彼らの声が聞こえるようになる。"
+    },
+    {
+      "english": "With time and training, Ani, you will. You will.",
+      "japanese": "時が経ち、訓練を積めば分かるよ、アニー。きっと分かるようになる。"
+    },
+    {
+      "english": "Your Majesty, it is our pleasure to continue to serve and protect you.",
+      "japanese": "陛下、引き続きお仕えし、お守りできるとは光栄です。"
+    },
+    {
+      "english": "I assure you I will not allow that to happen.",
+      "japanese": "そんなことはさせません。お約束します。"
+    },
+    {
+      "english": "I agree. I'm not sure what you wish to accomplish by this.",
+      "japanese": "私も同意見です。私には陛下の帰還の意図が分かりません。"
+    },
+    {
+      "english": "And I can only protect you. I can't fight a war for you.",
+      "japanese": "それに、私にできることは陛下をお守りすることだけです。あなたのために戦争を戦うことはできません。"
+    },
+    {
+      "english": "Good.",
+      "japanese": "よし。"
+    },
+    {
+      "english": "The Gungans will not be easily swayed. And we cannot use our power to help her.",
+      "japanese": "グンガンを動かすのは容易じゃないだろう。それに、我々は女王に助力できない。"
+    },
+    {
+      "english": "You've been a good apprentice, Obi-Wan. And you're a much wiser man than I am. I foresee you will become a great Jedi knight.",
+      "japanese": "お前はよくできた弟子だよ、オビ＝ワン。私よりずっと聡明だ。きっと偉大なジェダイ・ナイトになるだろう。"
+    },
+    {
+      "english": "Do you know where they are, Jar Jar?",
+      "japanese": "どこにいるか分かるのか、ジャー・ジャー？"
+    },
+    {
+      "english": "The Viceroy will be well-guarded.",
+      "japanese": "総督は厳重に守られているでしょう。"
+    },
+    {
+      "english": "There is a possibility, with this diversion, many Gungans will be killed.",
+      "japanese": "問題があるとすれば、この陽動作戦で多くのグンガンが犠牲になることだ。"
+    },
+    {
+      "english": "A well-conceived plan. However, there's great risk. The weapons on your fighters may not penetrate the shields.",
+      "japanese": "よく練られた作戦ですが、大きなリスクを伴います。あなたがたの戦闘機の武器ではシールドを突破できないでしょう。"
+    },
+    {
+      "english": "Once we get inside, you find a safe place to hide and stay there.",
+      "japanese": "中に入ったら安全な隠れ場所を見つけて、そこでじっとしてるんだ。"
+    },
+    {
+      "english": "Stay there.",
+      "japanese": "そこにいろ。"
+    },
+    {
+      "english": "Ani, find cover. Quick!",
+      "japanese": "アニー、隠れろ。急げ！"
+    },
+    {
+      "english": "Stay where you are. You'll be safe there.",
+      "japanese": "そこを動くな。そこなら安全だ。"
+    },
+    {
+      "english": "Stay in that cockpit.",
+      "japanese": "コクピットにいろ。"
+    },
+    {
+      "english": "We'll handle this.",
+      "japanese": "我々にお任せを。"
+    },
+    {
+      "english": "No, it--it's too late.",
+      "japanese": "いや、もう・・・もう手遅れだ。"
+    },
+    {
+      "english": "Obi-Wan. Promise--Promise me you will train the boy.",
+      "japanese": "オビ＝ワン。約束だ・・・約束してくれ。あの子を訓練するんだ。"
+    },
+    {
+      "english": "He is the chosen one. He will bring balance. Train him.",
+      "japanese": "あの子は選ばれし者だ。均衡をもたらしてくれる。あの子を鍛えるんだ。"
+    },
+    {
+      "english": "Captain.",
+      "japanese": "艦長。"
+    },
+    {
+      "english": "Tell them we wish to board at once.",
+      "japanese": "直ちに乗艦したいと彼らに伝えてくれ。"
+    },
+    {
+      "english": "I don't sense anything.",
+      "japanese": "私は何も感じないな。"
+    },
+    {
+      "english": "No. I sense an unusual amount of fear for something as trivial as this trade dispute.",
+      "japanese": "いいや。些細な貿易論争にしては異常なほどに大きな恐怖を感じる。"
+    },
+    {
+      "english": "Don't center on your anxieties, Obi-Wan. Keep your concentration here and now, where it belongs.",
+      "japanese": "不安から目をそらすのだ、オビ＝ワン。我々がいる今ここに、意識を集中させろ。"
+    },
+    {
+      "english": "Dioxis.",
+      "japanese": "毒ガスだ。"
+    },
+    {
+      "english": "They have shield generators! It's a standoff. Let's go.",
+      "japanese": "シールド発生装置付きだ！きりがない。行くぞ。"
+    },
+    {
+      "english": "Battle droids.",
+      "japanese": "バトル・ドロイドだ。"
+    },
+    {
+      "english": "This is an odd play for the Trade Federation. We've got to warn the Naboo and contact Chancellor Valorum. Let's split up. Stow aboard separate ships and meet down on the planet.",
+      "japanese": "通商連合にしては妙な行動だな。ナブーに警告して、ヴァローラム議長に報告する必要がある。ここで分かれよう。別々の船に乗り込んで、惑星で落ち合うんだ。"
+    }
+  ]
 }

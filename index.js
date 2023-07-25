@@ -24,7 +24,7 @@ const randomIntFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-const generateQuiGonQuote = async () => {
+const generateQuiGonQuote = async (language) => {
   const file = fs.readFileSync(fileName);
   const fileContent = JSON.parse(file);
   console.log("quote file length: ", fileContent.body.length);
@@ -32,7 +32,8 @@ const generateQuiGonQuote = async () => {
   console.log("random quote interval: ", randomInt);
   console.log("randomly selected quote: ", fileContent.body[randomInt]);
 
-  let randomQuote = fileContent.body[randomInt];
+  let randomQuoteObject = fileContent.body[randomInt];
+  let randomQuote = randomQuoteObject[language];
 
   // quote received
 
@@ -59,7 +60,12 @@ cron.schedule('*/5 * * * *', () => {
 })
 
 cron.schedule('0 */2 * * *', () => {
-  generateQuiGonQuote();
+  generateQuiGonQuote("english");
+  
+  // japanese for one hour later
+  setInterval(() => {
+    generateQuiGonQuote("japanese");
+  }, 3600000)
 });
 
 cron.schedule('*/10 * * * * *', () => {
