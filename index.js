@@ -55,10 +55,10 @@ const generateQuiGonQuote = () => {
   // quote received
   postToBluesky(randomQuoteObject["english"]);
 
-  // japanese for one hour later
+  // japanese for two hours later
   setTimeout(() => {
     postToBluesky(randomQuoteObject["japanese"]);
-  }, 3600000);
+  }, 7200000);
 };
 
 cron.schedule('*/5 * * * *', () => {
@@ -66,7 +66,7 @@ cron.schedule('*/5 * * * *', () => {
   axios.get('https://quigon-sw-bot-bf4f7e27a12b.herokuapp.com/');
 })
 
-cron.schedule('0 */2 * * *', () => {
+cron.schedule('0 */4 * * *', () => {
   generateQuiGonQuote();
 });
 
