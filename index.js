@@ -18,11 +18,11 @@ const { BskyAgent } = blue;
 const BLUESKY_BOT_USERNAME = process.env.APP_USERNAME
 const BLUESKY_BOT_PASSWORD = process.env.APP_PASSWORD
 
-const fileName = "./quotes.json";
+const fileName = "./data/quotes.json";
+const countFileName  = "./data/count.json";
 
-const randomIntFromInterval = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1) + min)
-}
+const file = fs.readFileSync(fileName);
+const fileContent = JSON.parse(file);
 
 const postToBluesky = async (text) => {
   const { RichText } = blue;
@@ -42,22 +42,41 @@ const postToBluesky = async (text) => {
   await agent.post(postRecord);
 }
 
-const generateQuiGonQuote = () => {
-  const file = fs.readFileSync(fileName);
-  const fileContent = JSON.parse(file);
-  console.log("quote file length: ", fileContent.body.length);
-  let randomInt = randomIntFromInterval(0, fileContent.body.length - 1);
-  console.log("random quote interval: ", randomInt);
-  console.log("randomly selected quote: ", fileContent.body[randomInt]);
+const readAndIncrementCountFromJson = () => {
+  let countFile = fs.readFileSync(countFileName);
+  let countFileContent = JSON.parse(countFile);
+  let count = countFileContent.count;
 
-  let randomQuoteObject = fileContent.body[randomInt];
+  console.log("quote file length: ", fileContent.body.length);
+
+  let incrementedCount = count + 1 > fileContent.body.length - 1 ? 0 : count + 1;
+
+  console.log("reading count: ", count);
+
+  let newCountFileContent = {
+    count: incrementedCount
+  }
+
+  let data = JSON.stringify(newCountFileContent);
+
+  fs.writeFileSync("./data/count.json", data);
+
+  return count;
+}
+
+const generateQuiGonQuote = () => {
+  let selectedInt = readAndIncrementCountFromJson();
+  console.log("selected quote interval: ", selectedInt);
+  console.log("randomly selected quote: ", fileContent.body[selectedInt]);
+
+  let selectedQuoteObject = fileContent.body[selectedInt];
 
   // quote received
-  postToBluesky(randomQuoteObject["english"]);
+  postToBluesky(selectedQuoteObject["english"]);
 
   // japanese for two hours later
   setTimeout(() => {
-    postToBluesky(randomQuoteObject["japanese"]);
+    postToBluesky(selectedQuoteObject["japanese"]);
   }, 7200000);
 };
 
@@ -70,7 +89,7 @@ cron.schedule('0 */4 * * *', () => {
   generateQuiGonQuote();
 });
 
-cron.schedule('*/10 * * * * *', () => {
+cron.schedule('*/5 * * * * *', () => {
   console.log("Running...");
 });
 

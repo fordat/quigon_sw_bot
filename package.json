@@ -1,6 +1,6 @@
 {
   "name": "quigon_sw_bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quigon jinn quote bot",
   "main": "index.js",
   "type": "module",
